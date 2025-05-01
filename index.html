@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richmarket id</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="https://files.catbox.moe/6822fd.jpg" type="image/png" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Richmarket<span> ID</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Selamat Datang di Richmarlet.id</h1>
+                <p>Menyediakan Layanan Digital Terbaik Dan termurah Sepanjang Sejarah</p>
+                <a href="#services" class="btn-primary">Lihat Layanan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Layanan Kami</h2>
+                <p>Pilih layanan terbaik sesuai kebutuhan Anda</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Box 1: WhatsApp Bot Panel -->
+                <div class="service-box" id="whatsapp-bot">
+                    <div class="service-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>Panel Bot WhatsApp</h3>
+                    <p>Bot WhatsApp premium untuk bisnis dan kebutuhan personal dengan fitur lengkap dan dukungan 24/7</p>
+                    <div style="margin-top: auto;">
+                        <button class="btn-service" data-category="whatsapp-bot">Lihat Produk</button>
+                    </div>
+                </div>
+
+                <!-- Box 2: Premium Applications -->
+                <div class="service-box" id="premium-apps">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplikasi Premium</h3>
+                    <p>Koleksi aplikasi premium untuk meningkatkan produktivitas dan hiburan dengan harga terjangkau</p>
+                    <div style="margin-top: auto;">
+                        <button class="btn-service" data-category="premium-apps">Lihat Produk</button>
+                    </div>
+                </div>
+
+                <!-- Box 3: Game Top-Up -->
+                <div class="service-box" id="game-topup">
+                    <div class="service-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Top Up Game</h3>
+                    <p>Layanan top up game termurah dan terpercaya untuk berbagai game populer dengan proses instan</p>
+                    <div style="margin-top: auto;">
+                        <button class="btn-service" data-category="game-topup">Lihat Produk</button>
+                    </div>
+                </div>
+
+                <!-- Box 4: WhatsApp Bot Scripts -->
+                <div class="service-box" id="whatsapp-scripts">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Script Bot WhatsApp</h3>
+                    <p>Script bot WhatsApp dengan fitur lengkap dan customizable untuk meningkatkan efektivitas bisnis Anda</p>
+                    <div style="margin-top: auto;">
+                        <button class="btn-service" data-category="whatsapp-scripts">Lihat Produk</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title">Products</h2>
+            <div id="products-container" class="products-grid"></div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Kami</h2>
+                <p>Mengapa memilih layanan kami?</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/image/panel.png" alt="About Us">
+                </div>
+                <div class="about-text">
+                    <h3>Layanan Digital Terpercaya</h3>
+                    <p>Dengan pengalaman bertahun-tahun dalam industri digital, kami menyediakan layanan premium dengan harga terjangkau. Kepuasan pelanggan adalah prioritas utama kami.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check-circle"></i> Produk Premium Berkualitas</li>
+                        <li><i class="fas fa-check-circle"></i> Layanan Pelanggan 24/7</li>
+                        <li><i class="fas fa-check-circle"></i> Proses Transaksi Cepat</li>
+                        <li><i class="fas fa-check-circle"></i> Update Produk Terbaru</li>
+                    </ul>
+                    <a href="#contact" class="btn-secondary">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimoni Pelanggan</h2>
+                <p>Apa kata pelanggan tentang layanan kami</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Layanan terbaik! Bot WhatsApp sangat membantu bisnis saya untuk berkembang."</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Ahmad Rizki</h4>
+                            <span>Pemilik Toko Online</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Top up game super cepat dan harga sangat terjangkau. Recommended!"</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Rini Susanti</h4>
+                            <span>Gamer Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Aplikasi premium yang disediakan sangat berguna untuk produktivitas harian."</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Budi Santoso</h4>
+                            <span>Freelancer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Kami</h2>
+                <p>Dapatkan informasi lebih lanjut tentang layanan kami</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Alamat</h3>
+                            <p>Jl. Asam Kumbang. 09, Medam, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telepon</h3>
+                            <p>+62 822 7685 3797</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>richadosfaldo21@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Jam Operasional</h3>
+                            <p>Senin - Sabtu: 09:00 - 21:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subjek" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Richmarket<span> ID</span></h2>
+                    <p>Solusi digital terbaik untuk kebutuhan Anda</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Layanan Kami</h3>
+                    <ul>
+                        <li><a href="#whatsapp-bot">Panel Bot WhatsApp</a></li>
+                        <li><a href="#premium-apps">Aplikasi Premium</a></li>
+                        <li><a href="#game-topup">Top Up Game</a></li>
+                        <li><a href="#whatsapp-scripts">Script Bot WhatsApp</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Ikuti Kami</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Richmarket. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
