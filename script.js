@@ -224,6 +224,20 @@ function openProductModal(category) {
     modal.style.display = 'block';
 }
 
+const toggle = document.getElementById('csToggle');
+const menu = document.getElementById('csMenu');
+
+toggle.addEventListener('click', () => {
+  menu.classList.toggle('active');
+});
+
+document.addEventListener('click', function(event) {
+  if (!event.target.closest('.cs-widget')) {
+    menu.classList.remove('active');
+  }
+});
+
+
 // Contact Form Submission
 const contactForm = document.getElementById('contact-form');
 contactForm.addEventListener('submit', (e) => {
