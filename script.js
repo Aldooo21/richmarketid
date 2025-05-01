@@ -125,14 +125,14 @@ const products = {
             description: "Script Cocok untuk menampilkan list produk cocok untuk jualan."
         },
         {
-            name: "BOT TOP UP INTERAKSI DIGIFLAZ",
+            name: "BOT TOP UP V2",
             image: "https://i.pinimg.com/736x/7c/d4/33/7cd4330f413bcfcadfba0fc442a55385.jpg",
             rating: 4,
             price: "Rp 200.000",
             description: "Bot Top Up Cocok Untuk kamu yang pengen jualan kamu serba automatis dengan interaksi Digiflazz dan payment gate away order kouta."
         },
         {
-            name: "BOT TOP UP INTERAKSI OKE CONECT",
+            name: "BOT TOP UP V1",
             image: "https://i.pinimg.com/736x/52/1d/78/521d78fd80cdf7af9f28a463957e710f.jpg",
             rating: 5,
             price: "Rp 150.000",
